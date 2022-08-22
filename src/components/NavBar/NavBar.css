@@ -1,0 +1,36 @@
+.NavBar_container{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: mediumslateblue;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.NavBar_categories{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.NavBar_categories_container{
+    
+}
+
+.NavBar_categories li{
+    padding-right: 10px;
+}
+.NavBar_categories li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}   
+.NavBar_categories li a:hover{
+    font-size: 20px;
+}
+
+.NavBar_logo p{
+    font-weight: bold;
+    
+}
