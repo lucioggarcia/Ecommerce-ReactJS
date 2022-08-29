@@ -1,4 +1,5 @@
-import './NavBar.css'
+import './navBar.css'
+import CartWidget from '../CartWidget/CartWidget';
 const NavBar = () =>{
     return (
         <div className = 'NavBar_container'>
@@ -15,6 +16,8 @@ const NavBar = () =>{
                 </ul>
 
             </div>
+            <CartWidget/>
+
 
             <div className ='NavBar_login'>
                 <button className='NavBar_button'>Login</button>
