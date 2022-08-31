@@ -6,7 +6,7 @@ function ItemCount({stock, initial}){
         <div>
             <h3>Remera Verde, Cantidad: {count}</h3>
             <button onClick={()=>setCount(count+1)} disabled={count===stock}>+</button>
-            <button onClick={()=>setCount(count-1)} disabled={count===0}>+</button>
+            <button onClick={()=>setCount(count-1)} disabled={count===0}>-</button>
         </div>
     )
 }
