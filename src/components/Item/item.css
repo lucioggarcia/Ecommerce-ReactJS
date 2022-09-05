@@ -1,0 +1,19 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.item img{
+    width: 200px;
+    height: 250px;
+}
+.item h3{
+    font-size: 20px;
+}
+.item p{
+    font-size: 15px;
+    
+}

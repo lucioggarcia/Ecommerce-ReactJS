@@ -9,9 +9,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar />
-        <ItemListContainer greeting='Hola, esto es la entrega de un desafio' />
-        <ItemCount stock={10} initial={0} />
+        
       </header>
+      <body>
+        <ItemListContainer/>
+        <ItemCount stock={10} initial={0} />
+      </body>
     </div>
   );
 }
