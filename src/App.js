@@ -13,7 +13,7 @@ function App() {
       </header>
       <body>
         <ItemListContainer/>
-        <ItemCount stock={10} initial={0} />
+       
       </body>
     </div>
   );

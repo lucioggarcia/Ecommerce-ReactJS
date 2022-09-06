@@ -14,6 +14,7 @@ const ItemList = ({item})=>{
                             description={producto.description}
                             price={producto.price}
                             image={producto.image}
+                            stock={producto.stock}
                             
                         />
                     );
