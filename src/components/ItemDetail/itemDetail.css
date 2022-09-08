@@ -1,0 +1,33 @@
+.contenedorDetail{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: mediumslateblue;
+    border-radius: 30px;
+    width: 900px;
+    height: 350px;
+}
+.contenedorDetail p, h3, h4{
+    color: white;
+}
+.contenedor_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_img img{
+    
+    border-radius: 15px;
+    
+}
+
+.contenedor_datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
