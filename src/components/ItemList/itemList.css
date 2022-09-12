@@ -1,5 +1,7 @@
 .itemList{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 3.5em;
 }

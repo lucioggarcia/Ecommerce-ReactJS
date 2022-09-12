@@ -19,18 +19,25 @@
 .NavBar_categories li{
     padding-right: 10px;
 }
-.NavBar_categories li a{
+
+
+.logo{
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+}
+.logo:hover{
+    font-size: 30px;
+}
+
+
+.categories{
     text-decoration: none;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
-}   
-.NavBar_categories li a:hover{
-    font-size: 20px;
 }
-
-.NavBar_logo p{
-    font-weight: bold;
-    font-size: 28px;
-    
+.categories:hover{
+    font-size: 20px;
 }
