@@ -1,8 +1,15 @@
 
 import './itemDetail.css'
 import ItemCount from '../ItemCount/ItemCount';
+import { useState } from 'react';
 
 const ItemDetail=({item})=>{
+
+    const [contador,setContador]=useState(0);
+
+    const onAdd=(dato)=>{
+        setContador(dato);
+    }
     return(
         <div className="contenedorDetail">
             <div className="contenedor_img">
@@ -22,13 +29,12 @@ const ItemDetail=({item})=>{
                     <h4>${item.price}</h4>
                 </div>
                 <div className='datos_stock'>
+                   
                     <p>Stock Disponible: {item.stock}</p>
-                    <ItemCount stock= {item.stock} initial={0}/>
+                    <ItemCount stock= {item.stock} initial={0} onAdd={onAdd}/>
+                    <p>SELECCIONASTE {contador} {item.name}</p>
                 </div>
 
-                
-
-                <button>Agregar al carrito</button>
             </div>
 
         </div>
