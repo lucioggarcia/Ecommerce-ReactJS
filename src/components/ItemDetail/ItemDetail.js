@@ -1,14 +1,18 @@
 
 import './itemDetail.css'
 import ItemCount from '../ItemCount/ItemCount';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import { CartContext } from '../../context/CartContext';
+import { Link } from 'react-router-dom';
 
 const ItemDetail=({item})=>{
+    const {addItem}= useContext(CartContext);
 
     const [contador,setContador]=useState(0);
 
     const onAdd=(dato)=>{
         setContador(dato);
+        addItem(item,dato)
     }
     return(
         <div className="contenedorDetail">
@@ -34,6 +38,7 @@ const ItemDetail=({item})=>{
                     <ItemCount stock= {item.stock} initial={0} onAdd={onAdd}/>
                     <p>SELECCIONASTE {contador} {item.name}</p>
                 </div>
+                <Link to='/'><button>Volver</button></Link>
 
             </div>
 

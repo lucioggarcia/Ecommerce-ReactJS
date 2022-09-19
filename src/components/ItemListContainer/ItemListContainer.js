@@ -32,7 +32,7 @@ const ItemListContainer= ()=>{
         <div className="itemListContainer">{
             items.length>0 ? (<ItemList item={items}/>
             ): (
-            <div>Cargando...</div>
+            <div style={{color:"white"}}>Cargando...</div>
             )
             }
         </div>
