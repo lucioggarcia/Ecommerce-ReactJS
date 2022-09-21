@@ -8,7 +8,8 @@
     background-color: mediumslateblue;
     border-radius: 30px;
     width: 1000px;
-    height: 550px;
+    height: 620px;
+    
 }
 .contenedorDetail p, h3, h4{
     color: white;
@@ -42,7 +43,11 @@
 .contenedor_datos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin-left: 25px;
+    
+    
+    
 }
+    

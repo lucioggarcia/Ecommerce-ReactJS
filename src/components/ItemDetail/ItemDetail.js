@@ -35,10 +35,14 @@ const ItemDetail=({item})=>{
                 <div className='datos_stock'>
                    
                     <p>Stock Disponible: {item.stock}</p>
-                    <ItemCount stock= {item.stock} initial={0} onAdd={onAdd}/>
-                    <p>SELECCIONASTE {contador} {item.name}</p>
+                    <ItemCount stock= {item.stock} initial={1} onAdd={onAdd}/>
+                    <p>{contador}</p>
                 </div>
                 <Link to='/'><button>Volver</button></Link>
+                {
+                    contador>0 &&
+                    <Link to='/carrito'>Ir al Carrito</Link>
+                }
 
             </div>
 
