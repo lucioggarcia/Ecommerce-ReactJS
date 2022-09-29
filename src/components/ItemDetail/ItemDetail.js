@@ -41,7 +41,7 @@ const ItemDetail=({item})=>{
                 <Link to='/'><button>Volver</button></Link>
                 {
                     contador>0 &&
-                    <Link to='/carrito'>Ir al Carrito</Link>
+                    <Link style={{color:"white", textDecoration:"none"}}to='/carrito'>Ir al Carrito</Link>
                 }
 
             </div>
