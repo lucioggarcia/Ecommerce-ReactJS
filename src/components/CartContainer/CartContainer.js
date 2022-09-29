@@ -9,7 +9,6 @@ export const CartContainer = ()=>{
     const {productCartList,removeItem,clear,getTotalPrice}= useContext(CartContext);
     const [idOrder,setIdOrder]=useState("")
     
-
     const sendOrder=(event)=>{
         event.preventDefault();
 
