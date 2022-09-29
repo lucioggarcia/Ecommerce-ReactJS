@@ -28,10 +28,8 @@ function App() {
         </div>
 
       </BrowserRouter>
-      
 
     </CartProvider>
-    
     
 
     
